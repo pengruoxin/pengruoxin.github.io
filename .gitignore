@@ -1,0 +1,11 @@
+.worktrees/
+.superpowers/
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+node_modules/
+.tmp/
+tmp/
+.tweet-cache/
+.DS_Store

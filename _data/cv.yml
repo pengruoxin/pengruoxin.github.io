@@ -1,0 +1,50 @@
+cv:
+  name: Peng Ruoxin
+  label: M.Sc. Student in Artificial Intelligence and Big Data Computing
+  email: yiwu1777@gmail.com
+  location: Hong Kong SAR, China
+  image: ""
+  summary: I study efficient ways to reuse and compose pretrained vision models, with interests in model reassembly, architecture search, and computer vision.
+
+  social_networks:
+    - network: GitHub
+      username: pengruoxin
+
+  sections:
+    Education:
+      - institution: The Hong Kong Polytechnic University
+        location: Hong Kong SAR, China
+        area: Artificial Intelligence and Big Data Computing
+        studyType: M.Sc.
+        start_date: 2025-09
+        end_date: 2027-03
+
+      - institution: China Agricultural University
+        location: Beijing, China
+        area: Data Science and Big Data Technology
+        studyType: B.Eng.
+        start_date: 2021-09
+        end_date: 2025-06
+        score: GPA 3.76/4.00 · Rank 5/29
+
+    Research:
+      - company: HeteroWeave Research Team
+        position: Researcher
+        start_date: 2025
+        end_date: Present
+        summary: Research on variable-cardinality reassembly of heterogeneous pretrained vision models.
+
+    Publications:
+      - title: An Overall Real-Time Mechanism for Classification and Quality Evaluation of Rice
+        publisher: AAAI 2026 AgriAI Workshop
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2502.13764
+
+      - title: An Improved Pure Fully Connected Neural Network for Rice Grain Classification
+        publisher: CAIT 2025
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2503.03111
+
+      - title: Intelligent Recognition of Live Pig Aggregation Behavior Based on Convolutional Neural Network
+        publisher: ECPLF 2024
+        releaseDate: 2024
