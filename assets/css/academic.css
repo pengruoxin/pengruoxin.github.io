@@ -591,6 +591,76 @@ svg {
   line-height: 1.5;
 }
 
+.experience-page {
+  display: grid;
+  gap: 4rem;
+  margin-top: 2.75rem;
+}
+
+.experience-group > header {
+  margin-bottom: 1.1rem;
+}
+
+.experience-group > header h2 {
+  margin: 0;
+  color: #17324f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.65rem, 3vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.experience-entry {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 1.3rem;
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--academic-border);
+}
+
+.experience-entry:last-child {
+  border-bottom: 1px solid var(--academic-border);
+}
+
+.experience-entry .experience-date {
+  margin: 0;
+  color: var(--academic-navy);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.experience-entry h3 {
+  margin: 0;
+  color: #22394f;
+  font-size: 1.04rem;
+  font-weight: 720;
+  line-height: 1.4;
+}
+
+.experience-entry .experience-context {
+  margin: 0.22rem 0 0.55rem;
+  color: #6a7582;
+  font-size: 0.8rem;
+}
+
+.experience-entry ul {
+  margin: 0.55rem 0 0.65rem;
+  padding-left: 1.1rem;
+  color: #4f5d6c;
+  font-size: 0.88rem;
+  line-height: 1.62;
+}
+
+.experience-entry li + li {
+  margin-top: 0.35rem;
+}
+
+.experience-entry a {
+  font-size: 0.82rem;
+  font-weight: 680;
+}
+
 footer.sticky-bottom {
   margin-top: 4rem !important;
   padding: 1.5rem 0;
@@ -703,6 +773,11 @@ footer.sticky-bottom {
   .academic-timeline article {
     grid-template-columns: 1fr;
     gap: 0.3rem;
+  }
+
+  .experience-entry {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
   }
 }
 
